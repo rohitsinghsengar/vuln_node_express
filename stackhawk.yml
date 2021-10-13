@@ -1,0 +1,8 @@
+# stackhawk configuration for StackHawk Workshop
+app:
+  # An applicationId obtained from the StackHawk platform.
+  applicationId: 48726073-cb15-4f1f-bc9a-25506adec22e # (required)
+  # The environment for the applicationId defined in the StackHawk platform.
+  env: Development # (required)
+  # The url of your application to scan
+  host: http://localhost:3000 # (required)
